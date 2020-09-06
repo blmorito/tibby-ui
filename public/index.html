@@ -24,7 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Tibby - Your friendly community finder</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +39,13 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      chat-icon="https://storage.googleapis.com/cloudprod-apiai/3b2dd587-7f28-4846-b7e3-15a33b0685e6_x.png"
+      intent="WELCOME"
+      chat-title="Tibby"
+      agent-id="d0b2637f-d8b4-49ac-8754-550727589541"
+      language-code="en"
+    ></df-messenger>
   </body>
 </html>
