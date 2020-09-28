@@ -1,12 +1,11 @@
 import logo from "../logo.png";
-import { Navbar } from "reactstrap";
 import React from "react";
 import "./NavBar.css";
 function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light">
       <div className="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           <img
             src={logo}
             width="30"
@@ -25,36 +24,20 @@ function NavBar() {
             tibby
           </span>
         </a>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        {/* <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/">
                 About
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/">
                 Communities
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                FAQ
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        {/* <div className="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                About
-              </a>
-              <a class="nav-link" href="#">
-                Communities
-              </a>
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/">
                 FAQ
               </a>
             </li>

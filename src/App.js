@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
-import NavBar from "./nav/NavBar";
-import { Row, Col } from "reactstrap";
+import NavBar from "./nav/NavBar"
 import bg from "./bg.png";
 import why from "./why.png";
 function App() {
@@ -9,14 +8,14 @@ function App() {
     <div>
       <NavBar />
       <div className="action-section">
-        <img src={bg}></img>
+        <img src={bg} alt="action"></img>
         <div className="container">
           <div className="row" style={{ minHeight: "85vh" }}>
             <div className="col-sm-6 col-xs-12">
               <div className="heading-wrap">
                 <h1 className="heading">Collaborate with ease</h1>
                 <h3 className="subheading">
-                  With Tibby's help, you can find communities within accenture.
+                  With Tibby's help, you can find communities within Accenture.
                 </h3>
               </div>
             </div>
@@ -27,7 +26,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-xs-12 text-center">
-              <img src={why} />
+              <img src={why} alt="why" />
             </div>
             <div className="col-sm-6 col-xs-12 ">
               <h1
@@ -63,10 +62,16 @@ function App() {
           <div className="row">
             <div className="col-sm-8 col-xs-12">
               <h1>There's a community for everyone</h1>
+              <p>
+                Find communities ranging from skill specific groups to hobbies like gaming and art. 
+              </p>
             </div>
           </div>
         </div>
       </div>
+      <footer>
+        Crafted with ❤ by the Lambo Sugbo - Coolab Team
+      </footer>
     </div>
   );
 }

@@ -65,3 +65,18 @@
   font-size: 90px;
   line-height: 0.9;
 }
+
+.comm-section p {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.2;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background-color: rgb(26, 26, 26);
+}
